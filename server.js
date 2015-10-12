@@ -6,4 +6,4 @@ var server = http.createServer(function (req, res) {
   res.end('request (' + requests + '): 01234567890123456789');
 });
 console.log('basic http server running');
-server.listen(12345);
+server.listen(80);
